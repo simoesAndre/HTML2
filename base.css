@@ -1,0 +1,281 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+/* HOME */
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(72, 212, 177);
+    padding: 10px 20px 0px;
+}
+.listMenu {
+    margin-top: 80px;
+}
+.itemsMenu {
+    font-size: 22px;
+    list-style-type: none;
+    padding-top: 8px;
+}
+.descriptionItemsMenu {
+    text-decoration: none;
+    color: rgb(5, 108, 108);
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    display: flex;
+}
+.titleHeader {
+    flex: 1;
+}
+.titleHeader1 {
+    font-size: 60px;
+    margin-left: 30px;
+    color: white;
+}
+.imageHeader {
+    flex: 2;
+    margin-left: 25px;
+}
+.imageHeader1 {
+    height: 150px;
+}
+.imageHeader2 {
+    height: 150px;
+}
+.imageHeader3 {
+    height: 150px;
+}
+.content {
+    background-color: rgba(230, 229, 229, 0.973);
+    min-height: 300px;
+    padding: 20px;
+}
+.titleContent {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descriptionContent {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitleContent {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+.matterContent {
+    display: flex;
+}
+.matterContent1 {
+    flex: 1;
+}
+.matterContent2 {
+    flex: 1;
+}
+.titleMatterContent {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.imageContent1 {
+    height: 250px;
+    margin-left: 50px;
+}
+.imageContent2 {
+    height: 250px;
+    margin-left: 50px;
+}
+.buttonContent {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.footer {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.footer1 {
+    flex: 3;
+    display: flex;
+}
+.footer2 {
+    flex: 1;
+}
+.imageFooter1 {
+    height: 100px;
+    flex: 1;
+}
+.imageFooter2 {
+    height: 100px;
+    flex: 1;
+}
+.imageFooter3 {
+    height: 100px;
+    flex: 1;
+}
+.imageFooter4 {
+    height: 100px;
+    flex: 1;
+}
+.descriptionFooter1 {
+    flex: 2;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.descriptionFooter2 {
+    color: white;
+    text-align: center;
+}
+/*HOME*/
+
+/*ABOUT*/
+.imageHeaderAbout {
+    flex: 1;
+    height: 150px;
+}
+.titleContentAbout {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.descriptionContentAbout {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+.descriptionContentAbout1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+/*ABOUT*/
+
+/*TIME*/
+.imageHeaderTime {
+    width: 1000px;
+}
+.descriptionTable {
+    text-align: center;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tableTime {
+    border-style: solid;
+    border-color: black;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 220px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.titleTableTime {
+    font-size: 18px;
+    background-color: rgb(157, 160, 160);
+    height: 40px;
+}
+.serviceTableTime {
+    text-align: left;
+}
+table tbody tr:nth-child(even) td {
+    background-color: rgb(231, 230, 230);
+}
+/*TIME*/
+
+/*CONTACT*/
+.imageHeaderContact {
+    width: 1000px;
+    height: 300px;
+}
+.numberTelephoneContact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -10px;
+}
+.addressContact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-style: italic;
+}
+.form {
+    width: 500px;
+    height: 280px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border: solid transparent;
+    border-radius: 10px;
+    background-color: rgb(128, 129, 129);
+}
+.itemsForm {
+    display: flex;
+    flex: 1;
+}
+.titleItemsForm {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 5px;
+    color: white;
+}
+.contentItemsForm {
+    flex: 3;
+    padding: 5px;
+}
+input {
+    width: 331px;
+}
+.buttonForm {
+    margin-left: 118px;
+    margin-top: 20px;
+}
+button {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 5px;
+}
